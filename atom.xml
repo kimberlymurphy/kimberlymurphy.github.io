@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[A Minor in Mining]]></title>
+  <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
+  <link href="http://kimberlymurphy.github.io/"/>
+  <updated>2014-02-03T20:59:25-07:00</updated>
+  <id>http://kimberlymurphy.github.io/</id>
+  <author>
+    <name><![CDATA[Kimberly Murphy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Day 1]]></title>
+    <link href="http://kimberlymurphy.github.io/blog/2014/02/03/day-1/"/>
+    <updated>2014-02-03T20:37:35-07:00</updated>
+    <id>http://kimberlymurphy.github.io/blog/2014/02/03/day-1</id>
+    <content type="html"><![CDATA[<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$sudo make me_a_sandwich</span></code></pre></td></tr></table></div></figure>
+
+
+<p>blah blah blah</p>
+
+<figure class='code'><figcaption><span>Cat class</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Cat</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">speak</span>
+</span><span class='line'>    <span class="s2">&quot;Meow&quot;</span>
+</span><span class='line'>   <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<div><script src='https://gist.github.com/8797941.js'></script>
+<noscript><pre><code>class Dog
+  def speak
+    &quot;Dog&quot;
+   end
+end</code></pre></noscript></div>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
