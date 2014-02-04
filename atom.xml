@@ -4,7 +4,7 @@
   <title><![CDATA[A Minor in Mining]]></title>
   <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
   <link href="http://kimberlymurphy.github.io/"/>
-  <updated>2014-02-04T12:48:52-07:00</updated>
+  <updated>2014-02-04T12:55:08-07:00</updated>
   <id>http://kimberlymurphy.github.io/</id>
   <author>
     <name><![CDATA[Kimberly Murphy]]></name>
@@ -18,28 +18,9 @@
     <link href="http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1/"/>
     <updated>2014-02-04T12:21:10-07:00</updated>
     <id>http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://kimberlymurphy.github.io/drink-out-of-a-hose.jpg" width="425" height="282" title="image" alt="images"></p>
+    <content type="html"><![CDATA[<p><img class="left" src="http://www.scotduke.com/wp-content/uploads/2009/03/drink-out-of-a-hose.jpg" width="425" height="282" title="image" alt="images"></p>
 
-<p>I like to learn, I really do.  I seek out situations which provide that opportunity.  That said, I’m not sure that my approach to learning is currently the most healthy/functional.  As I&rsquo;ve get older, not so much wiser, I feel more self-conscious, introverted and unsure.</p>
-
-<p>It certainly influences my approach.  One minute I&rsquo;m agitated because if I asked every question that came into my head or branched for the detour such musings would launch, I’d not only disrupt things for others, I’d have a hard time making it through a simple task with any sense of continuity.  That said, my response to this often means finding a gear where I sit back and let the information flow over me like a 10-month-old being spoon fed smashed peas…some content makes it in, a fair amount misses.</p>
-
-<p>Reserving Judgment</p>
-
-<p>I commiserate with the context of drinking from a firehose, but it also worries me.  The reality is I’ve had experiences where that eased and I’d later wonder how I ever felt so daunted, but I’ve also had experiences where (while I didn’t quit on Mr. Miagia, so to speak) I disengaged enough to miss some of the ahh-ha moments.</p>
-
-<p>Somebody once told me a story of the best student they ever knew: this kid who unabashedly asked questions.  Questions about everything.  Which meant everyone learned more (or so it went).  Though I’ve been in classes where someone does this and seen the side of it being a detriment to others in what it limits being covered.</p>
-
-<p>I guess striving for balance in approach is the best I can do.  A balance where I don’t ignore what confuses me, but I don’t necessarily address every (often irrelevant) concern/tangent that pops into my head.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 1]]></title>
-    <link href="http://kimberlymurphy.github.io/blog/2014/02/03/day-1/"/>
-    <updated>2014-02-03T20:37:35-07:00</updated>
-    <id>http://kimberlymurphy.github.io/blog/2014/02/03/day-1</id>
-    <content type="html"><![CDATA[<p>I like to learn, I really do.  I seek out situations which provide that opportunity.  That said, I’m not sure that my approach to learning is currently the most healthy/functional.  As I&rsquo;ve get older, not so much wiser, I feel more self-conscious, introverted and unsure.</p>
+<p>I like to learn, I really do.  I seek out situations which provide that opportunity.  That said, I’m not sure that my approach to learning is currently the most healthy/functional.  As I get older, rather than wiser, I feel more self-conscious, introverted and unsure.</p>
 
 <p>It certainly influences my approach.  One minute I&rsquo;m agitated because if I asked every question that came into my head or branched for the detour such musings would launch, I’d not only disrupt things for others, I’d have a hard time making it through a simple task with any sense of continuity.  That said, my response to this often means finding a gear where I sit back and let the information flow over me like a 10-month-old being spoon fed smashed peas…some content makes it in, a fair amount misses.</p>
 
@@ -50,12 +31,6 @@
 <p>Somebody once told me a story of the best student they ever knew: this kid who unabashedly asked questions.  Questions about everything.  Which meant everyone learned more (or so it went).  Though I’ve been in classes where someone does this and seen the side of it being a detriment to others in what it limits being covered.</p>
 
 <p>I guess striving for balance in approach is the best I can do.  A balance where I don’t ignore what confuses me, but I don’t necessarily address every (often irrelevant) concern/tangent that pops into my head.</p>
-
-<p>Update Repositories</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git pull</span></code></pre></td></tr></table></div></figure>
-
 ]]></content>
   </entry>
   
