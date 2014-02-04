@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blood Ruby]]></title>
+  <title><![CDATA[A Minor in Mining]]></title>
   <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
   <link href="http://kimberlymurphy.github.io/"/>
-  <updated>2014-02-04T13:18:51-07:00</updated>
+  <updated>2014-02-04T13:56:10-07:00</updated>
   <id>http://kimberlymurphy.github.io/</id>
   <author>
     <name><![CDATA[Kimberly Murphy]]></name>
