@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://kimberlymurphy.github.io/sitemap.xml 

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Chronicles of a Ruby Rube]]></title>
+  <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
+  <link href="http://kimberlymurphy.github.io/"/>
+  <updated>2014-02-05T16:06:06-07:00</updated>
+  <id>http://kimberlymurphy.github.io/</id>
+  <author>
+    <name><![CDATA[Kimberly Murphy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Blogging 101]]></title>
+    <link href="http://kimberlymurphy.github.io/blog/2014/02/05/blogging-101/"/>
+    <updated>2014-02-05T15:20:24-07:00</updated>
+    <id>http://kimberlymurphy.github.io/blog/2014/02/05/blogging-101</id>
+    <content type="html"><![CDATA[<p>WORKFLOW</p>
+
+<p>Generate your octopress site to GIT:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Watch source for changes and regenerate as necessary</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake watch</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Create a new post:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["title"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then edit the text of that newly created file.</p>
+
+<p>Preview your work locally on &ldquo;localhost:4000&rdquo;:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Deploy your work to GIT:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<h2> Other Helpful Stuff To Be Filed</h2>
+
+
+<p>Install a theme within your octopress folder:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git submodule add gitPath/YOUR_NEW_THEME
+</span><span class='line'>git add
+</span><span class='line'>git commit
+</span><span class='line'>rake install[YOUR_NEW_THEME]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Terminal commands overview:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ls #list stuff in the current directory
+</span><span class='line'>rm xyz #remove file xyz
+</span><span class='line'>cd .. #change drive; go up a level
+</span><span class='line'>echo 'text_here'&gt;&gt;newFile #generates new file containing 'text_here'</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<h2> Putting your github octopress blog on your website</h2>
+
+
+<p>I wanted to forward dimkim.com\blog  —> kimberlymurphy.github.io
+And mask it.</p>
+
+<p>What I actually did was mess with the CNAME files and DNS enough to forward kimberlymurphy.github.io —> dimkim.com</p>
+
+<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#58;&#107;&#105;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#121;&#109;&#x75;&#114;&#112;&#104;&#x79;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#105;&#111;">&#107;&#x69;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#x79;&#109;&#x75;&#114;&#x70;&#104;&#121;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x69;&#111;</a> with masking
+This was quite straight-forward given DNS changes are super-responsive and conducive to trial &amp; error learning.</p>
+
+<p>I’m not sure how octopress works because when considering a fix to do what I initially intended whereby I’d just upload this blog directly to my hosted site, I didn’t know what to upload.
+I&rsquo;m not sure what all is covered in the generate, deploy, etc.  How are things being built under the hood?  Do they sit up on git the same way they do on my local folder?  Am I generating the content there here or in both places?</p>
+
+<p>Also, when I removed the CNAME files in RubyMine, something (not sure if it was rake generate or preview or deploy) would recreate them despite my having deleted them locally.  It wasn’t until I deleted them using the terminal that they went away for good.  I suspect that’s because they’re sitting in github despite my deleting them locally and that doing it through the terminal somehow deletes the github master guy.  I also noticed some weird things with parts of the theme, like the content window reversing coloring (seems like similar situation/culprit).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Just A Sip: Day 1]]></title>
+    <link href="http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1/"/>
+    <updated>2014-02-04T12:21:10-07:00</updated>
+    <id>http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://www.scotduke.com/wp-content/uploads/2009/03/drink-out-of-a-hose.jpg" width="425" height="282" title="image" alt="images"></p>
+
+<p>I like to learn, I really do.  I seek out situations which provide that opportunity.  That said, I’m not sure that my approach to learning is currently the most healthy/functional.  As I get older&mdash;rather than wiser&mdash;I feel more self-conscious, introverted and unsure.</p>
+
+<p>Which certainly influences my approach.  One minute I&rsquo;m agitated because if I asked every question that came into my head or branched for the detour such musings would launch, I’d not only disrupt things for others, I’d have a hard time making it through a simple task with any sense of continuity.  That said, my response to this often means telling myself to chill-out&hellip;then finding a gear where I sit back and let the information flow my way like a 10-month-old being fed smashed peas: some content makes it in, a fair amount misses.</p>
+
+<h2>Go, find balance.</h2>
+
+
+<p>I try to put things in the context of drinking from that firehose, and realize the means some of it will necessarily be missed, but that also worries me.  The reality is I’ve had experiences where things eased and I’d later wonder how I ever felt so daunted, but I’ve also had ones where (while I didn’t quit on Mr. Miyagi) there wasn&rsquo;t enough connection for me to reach all the ahh-ha moments.</p>
+
+<p>Somebody once told me a story of the best student they ever knew: this kid who unabashedly asked questions.  Questions about everything/anything.  Which theoretically meant everyone learned more.  Though I’ve been in classes where someone does this and seen the side of it as also potentially detrimental to others in what it limits being covered.</p>
+
+<p>I guess striving for balance in approach is the best I can do.  A balance where I don’t ignore what confuses me, but I don’t necessarily address every (often irrelevant or later addressed) concern/tangent that pops into my head.</p>
+]]></content>
+  </entry>
+  
+</feed>
