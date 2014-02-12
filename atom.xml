@@ -4,7 +4,7 @@
   <title><![CDATA[Chronicles of a Ruby Rube]]></title>
   <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
   <link href="http://kimberlymurphy.github.io/"/>
-  <updated>2014-02-11T17:18:54-07:00</updated>
+  <updated>2014-02-11T17:23:01-07:00</updated>
   <id>http://kimberlymurphy.github.io/</id>
   <author>
     <name><![CDATA[Kimberly Murphy]]></name>
@@ -162,7 +162,7 @@ And mask it.</p>
 
 <p>What I actually did was mess with the CNAME files and DNS enough to forward kimberlymurphy.github.io —> dimkim.com</p>
 
-<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#107;&#105;&#x6d;&#98;&#x65;&#x72;&#108;&#x79;&#x6d;&#x75;&#114;&#112;&#x68;&#121;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#105;&#111;">&#x6b;&#x69;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#x79;&#x6d;&#x75;&#x72;&#x70;&#104;&#121;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#x69;&#x6f;</a> with masking
+<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#107;&#x69;&#x6d;&#98;&#101;&#x72;&#x6c;&#x79;&#109;&#x75;&#x72;&#x70;&#104;&#121;&#64;&#103;&#x69;&#116;&#104;&#117;&#98;&#46;&#x69;&#111;">&#x6b;&#x69;&#x6d;&#98;&#101;&#114;&#x6c;&#121;&#109;&#117;&#x72;&#112;&#x68;&#121;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#46;&#x69;&#x6f;</a> with masking
 This was quite straight-forward given DNS changes are super-responsive and conducive to trial &amp; error learning.</p>
 
 <p>I’m not sure how octopress works because when considering a fix to do what I initially intended whereby I’d just upload this blog directly to my hosted site, I didn’t know what to upload.
