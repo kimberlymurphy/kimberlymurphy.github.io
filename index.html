@@ -9,9 +9,7 @@
   <meta name="author" content="Kimberly Murphy">
 
   
-  <meta name="description" content="WORKFLOW Generate your octopress site to GIT: 1
-rake generate Watch source for changes and regenerate as necessary 1
-rake watch Create a new post: 1 &hellip;">
+  <meta name="description" content="Git Overview Git provides revision control and tracking. It’s distributed and allows developers to collaborate and make changes to shared code in an &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +68,106 @@ rake watch Create a new post: 1 &hellip;">
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/02/11/git-n-go/">Git &#8216;N Go</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-11T12:53:45-07:00" pubdate data-updated="true">Feb 11<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Git Overview</h2>
+
+
+<p>Git provides revision control and tracking.  It’s distributed and allows developers to collaborate and make changes to shared code in an organized and traceable way.
+Your git serves as your local sandbox/work-area for making changes.  In a typical workflow, assuming your directory is initialized, you would checkout the project by doing a “pull” from the git directory (or repo).  Once you have performed the necessary modifications, you “add” these files to the staging area.  This updates the index with the current working tree content, preparing it for the next commit.</p>
+
+<p>Assuming you have access, your changes may be committed to the git depository.
+ If the modification relates to a pivotal tracker story, convention is to include the number in the comment when committing the change.
+Here’s an overview of the commands as they relate to the areas:
+Git Working directory
+You can create a Git working directory by doing an init:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git init</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This creates a hidden .git adding the folder to git
+You can check the status of the working directory with:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git status</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Staging Area
+Files are added to the stage with an add:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add XYZ.txt</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Repository
+Changes are recorded with a commit:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git commit -m “Comment for commit"</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<h2>Other useful Git commands:</h2>
+
+
+<p>Copy a remote repository so it is available locally:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git@github.com:username/XYZ_repo.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Get git status</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git status</span></code></pre></td></tr></table></div></figure>
+
+
+<p>List all branches and puts an * next to the branch you are currently on:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git branch</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Use this to resolve auto-merge conflicts by manually merging changes as you intend (a separate program will open up to aid in doing this):</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git mergetool</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/02/05/blogging-101/">Octopress Blogging 101</a></h1>
     
     
@@ -93,9 +191,7 @@ rake watch Create a new post: 1 &hellip;">
   </header>
 
 
-  <div class="entry-content"><p>WORKFLOW</p>
-
-<p>Generate your octopress site to GIT:</p>
+  <div class="entry-content"><p>Generate your octopress site to GIT:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
@@ -166,7 +262,7 @@ And mask it.</p>
 
 <p>What I actually did was mess with the CNAME files and DNS enough to forward kimberlymurphy.github.io —> dimkim.com</p>
 
-<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#58;&#107;&#105;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#121;&#109;&#x75;&#114;&#112;&#104;&#x79;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#105;&#111;">&#107;&#x69;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#x79;&#109;&#x75;&#114;&#x70;&#104;&#121;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x69;&#111;</a> with masking
+<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x6b;&#x69;&#109;&#98;&#x65;&#x72;&#108;&#121;&#x6d;&#x75;&#x72;&#x70;&#104;&#x79;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#46;&#x69;&#111;">&#107;&#105;&#x6d;&#x62;&#x65;&#114;&#108;&#121;&#109;&#117;&#114;&#x70;&#104;&#121;&#x40;&#x67;&#105;&#116;&#104;&#117;&#98;&#x2e;&#x69;&#111;</a> with masking
 This was quite straight-forward given DNS changes are super-responsive and conducive to trial &amp; error learning.</p>
 
 <p>I’m not sure how octopress works because when considering a fix to do what I initially intended whereby I’d just upload this blog directly to my hosted site, I didn’t know what to upload.
@@ -240,6 +336,10 @@ I&rsquo;m not sure what all is covered in the generate, deploy, etc.  How are th
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/02/11/git-n-go/">Git &#8216;N Go</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/02/05/blogging-101/">Octopress Blogging 101</a>
