@@ -4,7 +4,7 @@
   <title><![CDATA[Chronicles of a Ruby Rube]]></title>
   <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
   <link href="http://kimberlymurphy.github.io/"/>
-  <updated>2014-02-12T13:15:36-07:00</updated>
+  <updated>2014-02-20T15:39:53-07:00</updated>
   <id>http://kimberlymurphy.github.io/</id>
   <author>
     <name><![CDATA[Kimberly Murphy]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Warming Up To Ruby Classes]]></title>
+    <link href="http://kimberlymurphy.github.io/blog/2014/02/20/warming-up-to-ruby-classes/"/>
+    <updated>2014-02-20T15:11:54-07:00</updated>
+    <id>http://kimberlymurphy.github.io/blog/2014/02/20/warming-up-to-ruby-classes</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://img.scoop.co.nz/stories/images/1103/richardsimmons.jpg" width="400" height="297" title="image" alt="images"></p>
+
+<p>I like to warm up before I run and I appreciate a yoga class that seamlessly transitions so you find yourself in the middle of a flow without any forced or stilted feeling.  Similarly, easing-in mentally has its advantages.  It’s nice to start class with a warmup exercise.  The activity seems to help with both the problem solving aspect as well as acclimating to the mechanics of the tools (the part that&rsquo;s usually more jarring for me anyway).</p>
+
+<p>So far, my favorite of these exercises, which prime us for a session of learning, involved taking a prior warmup and designing it as a class from its monolithic beginnings.  The original program was a number guessing game relaying hints to any player not lucky enough to get it on the first go; thus the program indicated if a guess was too low or high until the randomly generated number was arrived at.</p>
+
+<p>While I typically get my biggest bang from the initial attack/approach to a problem, revisiting in the context of what Ruby offers in the way of class structure was interesting.  It challenged a few things I realized were ingrained in my development approach (likely because of how long and single-mindedly I&rsquo;ve focused on and worked with the languages/tools I’ve utilized in the past).  I s’pose I’m a serial monogamist as far as that goes.</p>
+
+<p>It’s nice to start to get more of a sense of Ruby and the community appeal to the language.  There is so much overhead and structure that I’d stopped considering might be possible to forgo.  Ruby has what comes off as a laissez-faire style, implicit typing, low overhead, sleek constructors, not sure there are really destructors or garbage collectors to speak of (finalizer?), declarations dimensioning is streamlined, and class methods’ returns are potentially defaulted (with no delineation of subroutines versus functions, everything in a class apparently gives back&hellip;).  Ruby seems pretty easy-going.  Nevertheless, seemingly more minimalist than simpleton the capabilities appear to offer more than the pared-down aesthetic belies.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 'N Go]]></title>
@@ -49,10 +66,16 @@ Files are added to the stage with an add:</p>
 
 
 <p>Repository
-Changes are recorded with a commit:</p>
+Changes are staged locally with a commit:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>git commit -m “Comment for commit"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Changes are pushed up to Github</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git push</span></code></pre></td></tr></table></div></figure>
 
 
 
@@ -162,7 +185,7 @@ And mask it.</p>
 
 <p>What I actually did was mess with the CNAME files and DNS enough to forward kimberlymurphy.github.io —> dimkim.com</p>
 
-<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#107;&#105;&#x6d;&#98;&#101;&#114;&#108;&#121;&#x6d;&#117;&#114;&#112;&#x68;&#x79;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#98;&#46;&#x69;&#111;">&#x6b;&#x69;&#x6d;&#x62;&#x65;&#114;&#x6c;&#x79;&#x6d;&#117;&#x72;&#x70;&#x68;&#121;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#x69;&#x6f;</a> with masking
+<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#107;&#105;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#121;&#x6d;&#117;&#x72;&#112;&#x68;&#x79;&#64;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#x69;&#111;">&#x6b;&#105;&#x6d;&#x62;&#101;&#x72;&#108;&#121;&#x6d;&#x75;&#114;&#112;&#104;&#x79;&#64;&#x67;&#x69;&#x74;&#104;&#x75;&#x62;&#46;&#x69;&#x6f;</a> with masking
 This was quite straight-forward given DNS changes are super-responsive and conducive to trial &amp; error learning.</p>
 
 <p>I’m not sure how octopress works because when considering a fix to do what I initially intended whereby I’d just upload this blog directly to my hosted site, I didn’t know what to upload.
