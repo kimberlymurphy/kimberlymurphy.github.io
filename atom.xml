@@ -4,7 +4,7 @@
   <title><![CDATA[Chronicles of a Ruby Rube]]></title>
   <link href="http://kimberlymurphy.github.io/atom.xml" rel="self"/>
   <link href="http://kimberlymurphy.github.io/"/>
-  <updated>2014-02-20T15:39:53-07:00</updated>
+  <updated>2014-03-10T18:37:08-06:00</updated>
   <id>http://kimberlymurphy.github.io/</id>
   <author>
     <name><![CDATA[Kimberly Murphy]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Regular Expressions]]></title>
+    <link href="http://kimberlymurphy.github.io/blog/2014/03/10/regular-expressions/"/>
+    <updated>2014-03-10T18:16:35-06:00</updated>
+    <id>http://kimberlymurphy.github.io/blog/2014/03/10/regular-expressions</id>
+    <content type="html"><![CDATA[<p>We just covered regular expressions (Regex) in Ruby, and the various ways to use them to formulate patterns by structuring characters and meta-characters to encode and prescribe our string requirements.</p>
+
+<p>Regular expressions may seem daunting at first glance, but not dissimilar to an algebra equation (hence the <em>expression</em>),  as long as you can systematically break the problem down and have mechanisms for doing so, it seems approachable to work out a representation and even reduce it.</p>
+
+<p>I guess what I find more intriguing than the specific syntax (for which tools exist to help validate and refine expressions, such as <a href ="http://rubular.com">Rubular</a>) are the implications of the types of problems these expressions might be applied towards.  While string manipulation and querying is something I&rsquo;m familiar with&mdash;I&rsquo;ve certainly done my share of parsing, manipulating and comparing&mdash;the extent and popularity of the topic in Ruby (and Python, etc.) suggests more hands-on interaction (and possibly freedom) in handling data (vetting, finding, sorting, etc.).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Warming Up To Ruby Classes]]></title>
@@ -185,7 +198,7 @@ And mask it.</p>
 
 <p>What I actually did was mess with the CNAME files and DNS enough to forward kimberlymurphy.github.io —> dimkim.com</p>
 
-<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#107;&#105;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#121;&#x6d;&#117;&#x72;&#112;&#x68;&#x79;&#64;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#x69;&#111;">&#x6b;&#105;&#x6d;&#x62;&#101;&#x72;&#108;&#121;&#x6d;&#x75;&#114;&#112;&#104;&#x79;&#64;&#x67;&#x69;&#x74;&#104;&#x75;&#x62;&#46;&#x69;&#x6f;</a> with masking
+<p>I rectified things by removing the CNAME files from the octopress site and setting-up a subdomain blog.dimkim.com to forward to <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#x3a;&#107;&#105;&#x6d;&#x62;&#x65;&#114;&#108;&#121;&#109;&#117;&#114;&#x70;&#x68;&#x79;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#x69;&#x6f;">&#x6b;&#x69;&#x6d;&#x62;&#x65;&#x72;&#x6c;&#121;&#109;&#117;&#x72;&#x70;&#104;&#x79;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#105;&#x6f;</a> with masking
 This was quite straight-forward given DNS changes are super-responsive and conducive to trial &amp; error learning.</p>
 
 <p>I’m not sure how octopress works because when considering a fix to do what I initially intended whereby I’d just upload this blog directly to my hosted site, I didn’t know what to upload.

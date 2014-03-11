@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Just A Sip: Day 1 - Chronicles of a Ruby Rube</title>
+  <title>Regular Expressions - Chronicles of a Ruby Rube</title>
   <meta name="author" content="Kimberly Murphy">
 
   
-  <meta name="description" content="I like to learn, I really do. I seek out situations which provide that opportunity. That said, I’m not sure that my approach to learning is &hellip;">
+  <meta name="description" content="We just covered regular expressions (Regex) in Ruby, and the various ways to use them to formulate patterns by structuring characters and meta- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1/">
+  <link rel="canonical" href="http://kimberlymurphy.github.io/blog/2014/03/10/regular-expressions/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,7 +65,7 @@
   
   <header>
     
-      <h1 class="entry-title">Just a Sip: Day 1</h1>
+      <h1 class="entry-title">Regular Expressions</h1>
     
     
       <p class="meta">
@@ -81,27 +81,18 @@
   
 
 
-<time datetime="2014-02-04T12:21:10-07:00" pubdate data-updated="true">Feb 4<span>th</span>, 2014</time>
+<time datetime="2014-03-10T18:16:35-06:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><img class="left" src="http://www.scotduke.com/wp-content/uploads/2009/03/drink-out-of-a-hose.jpg" width="425" height="282" title="image" alt="images"></p>
+<div class="entry-content"><p>We just covered regular expressions (Regex) in Ruby, and the various ways to use them to formulate patterns by structuring characters and meta-characters to encode and prescribe our string requirements.</p>
 
-<p>I like to learn, I really do.  I seek out situations which provide that opportunity.  That said, I’m not sure that my approach to learning is currently the most healthy/functional.  As I get older&mdash;rather than wiser&mdash;I feel more self-conscious, introverted and unsure.</p>
+<p>Regular expressions may seem daunting at first glance, but not dissimilar to an algebra equation (hence the <em>expression</em>),  as long as you can systematically break the problem down and have mechanisms for doing so, it seems approachable to work out a representation and even reduce it.</p>
 
-<p>Which certainly influences my approach.  One minute I&rsquo;m agitated because if I asked every question that came into my head or branched for the detour such musings would launch, I’d not only disrupt things for others, I’d have a hard time making it through a simple task with any sense of continuity.  That said, my response to this often means telling myself to chill-out&hellip;then finding a gear where I sit back and let the information flow my way like a 10-month-old being fed smashed peas: some content makes it in, a fair amount misses.</p>
-
-<h2>Go, find balance.</h2>
-
-
-<p>I try to put things in the context of drinking from that firehose, and realize the means some of it will necessarily be missed, but that also worries me.  The reality is I’ve had experiences where things eased and I’d later wonder how I ever felt so daunted, but I’ve also had ones where (while I didn’t quit on Mr. Miyagi) there wasn&rsquo;t enough connection for me to reach all the ahh-ha moments.</p>
-
-<p>Somebody once told me a story of the best student they ever knew: this kid who unabashedly asked questions.  Questions about everything/anything.  Which theoretically meant everyone learned more.  Though I’ve been in classes where someone does this and seen the side of it as also potentially detrimental to others in what it limits being covered.</p>
-
-<p>I guess striving for balance in approach is the best I can do.  A balance where I don’t ignore what confuses me, but I don’t necessarily address every (often irrelevant or later addressed) concern/tangent that pops into my head.</p>
+<p>I guess what I find more intriguing than the specific syntax (for which tools exist to help validate and refine expressions, such as <a href ="http://rubular.com">Rubular</a>) are the implications of the types of problems these expressions might be applied towards.  While string manipulation and querying is something I&rsquo;m familiar with&mdash;I&rsquo;ve certainly done my share of parsing, manipulating and comparing&mdash;the extent and popularity of the topic in Ruby (and Python, etc.) suggests more hands-on interaction (and possibly freedom) in handling data (vetting, finding, sorting, etc.).</p>
 </div>
 
 
@@ -124,7 +115,7 @@
   
 
 
-<time datetime="2014-02-04T12:21:10-07:00" pubdate data-updated="true">Feb 4<span>th</span>, 2014</time>
+<time datetime="2014-03-10T18:16:35-06:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
       
 
 
@@ -132,7 +123,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1/" data-via="" data-counturl="http://kimberlymurphy.github.io/blog/2014/02/04/just-a-sip-day-1/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kimberlymurphy.github.io/blog/2014/03/10/regular-expressions/" data-via="" data-counturl="http://kimberlymurphy.github.io/blog/2014/03/10/regular-expressions/" >Tweet</a>
   
   
   
@@ -141,8 +132,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/02/20/warming-up-to-ruby-classes/" title="Previous Post: Warming Up To Ruby Classes">&laquo; Warming Up To Ruby Classes</a>
       
-        <a class="basic-alignment right" href="/blog/2014/02/05/blogging-101/" title="Next Post: Octopress Blogging 101">Octopress Blogging 101 &raquo;</a>
       
     </p>
   </footer>
